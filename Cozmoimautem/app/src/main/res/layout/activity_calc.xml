@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sebax.cozmoimautem.CalcActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/odlegloscV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Odległość"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/odlegloscE"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/spalanieV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="średnie spalanie"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/spalanieE"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:layout_gravity="center"
+/>
+
+    <TextView
+        android:id="@+id/cenaV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cena paliwa"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/cenaE"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/wynik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:text="" />
+
+</LinearLayout>
